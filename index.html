@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expenses chart</title>
+    <link rel="stylesheet" href="src/css/main.css">
+</head>
+<body>
+    <main class="chart">
+        <section class="chart__wrap flex">
+            <div class="chart__main">
+                <div class="chart__upper flex">
+                    <div class="chart__levl">
+                        My balance
+                        <span class="chart__unit">
+                            $921.48
+                        </span>
+                    </div>
+                    <img 
+                        class="chart__logo" 
+                        src="src/assets/img/logo.svg" 
+                        alt=""
+                    >
+                </div>
+                <div class="chart__lower">
+                    <h1 class="chart__lead">
+                        Spending - Last 7 days
+                    </h1>
+                    <div class="chart__data flex">
+                        <!-- Inject JSON Data -->
+                    </div>
+                    <div class="chart__prop flex">
+                        <div class="chart__deets">
+                            Total this month
+                            <span class="chart__total">
+                                $478.33
+                            </span>
+                        </div>
+                        <div class="chart__deets chart__push">
+                            <span class="chart__grade">
+                                +2.4%
+                            </span>
+                            from last month
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="src/js/main.js"></script>
+</body>
+</html>
